@@ -1,0 +1,120 @@
+@mixin xlink {
+	&, &:link, &:active, &:hover, &:visited {@content;}
+}
+.big-menu {
+	position: absolute;
+	overflow: hidden;
+	display: flex;
+	width: 100%;
+	height: 100vh;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+
+	& .backdrop {
+		background-color: rgba(0, 0, 0, 0.5);
+		backdrop-filter: blur(2px);
+		width: 100%;
+		height: 100vh;
+		position: absolute;
+		top: 0;
+		left: 0;
+		opacity: 1;
+		animation: fadeIn .25s linear;
+
+		&.close {
+			opacity: 0;
+			animation: fadeOut .25s linear;
+		}
+	}
+
+	& nav {
+		background-color: #fff;
+		position: absolute;
+		left: 0;
+		top: 0;
+		height: 100vh;
+		animation: slideIn .25s ease-in-out;
+
+		&.close {
+			animation: slideOut .25s ease-in-out;
+		}
+
+		& header {
+			display: flex;
+			justify-content: space-between;
+			padding: 1rem;
+
+			/* & button {
+				font-size: 1.25em;
+			} */
+		}
+
+		& .big-menu-body {
+			display: flex;
+			flex-direction: row;
+
+			& .big-menu-scroller {
+				overflow-y: auto;
+				height: calc(100vh - 70px);
+				min-width: 320px;
+			}
+
+			& ul {
+				width: 100%;
+
+				&, & li, & li a {
+					list-style: none;
+					display: block;
+					padding: 0;
+					margin: 0;
+				}
+
+				& li {
+					& a {
+						@include xlink {
+							text-decoration: none;
+							padding: .5rem 1rem;
+						}
+						&:hover {
+							background-color: var(--bs-primary);
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+@keyframes slideIn {
+	from {
+		left: -360px;
+	}
+	to {
+		left: 0;
+	}
+}
+@keyframes slideOut {
+	from {
+		left: 0;
+	}
+	to {
+		left: -360px;
+	}
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes fadeOut {
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
+}

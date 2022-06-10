@@ -1,0 +1,840 @@
+{
+	"menu": [
+		{
+			"id": 12,
+			"name": "ABARROTES",
+			"sub": [
+				{
+					"id": 106,
+					"name": "ABARROTES",
+					"sub": [
+						{
+							"id": 1,
+							"name": "ACEITES"
+						},
+						{
+							"id": 9,
+							"name": "ATUNES BACALAO Y CAMARON SECO"
+						}
+					]
+				},
+				{
+					"id": 246,
+					"name": "ARROZ, FRIJOL Y SEMILLAS",
+					"sub": [
+						{
+							"id": 2,
+							"name": "ARROZ"
+						},
+						{
+							"id": 1,
+							"name": "FRIJOL"
+						}
+					]
+				},
+				{
+					"id": 157,
+					"name": "DULCES Y GOLOSINAS",
+					"sub": [
+						{
+							"id": 1,
+							"name": "CHOCOLATES"
+						}
+					]
+				},
+				{
+					"id": 114,
+					"name": "GALLETAS",
+					"sub": [
+						{
+							"id": 2,
+							"name": "GALLETA DULCE"
+						},
+						{
+							"id": 3,
+							"name": "WAFFER"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 49,
+			"name": "ACCESORIOS",
+			"sub": [
+				{
+					"id": 168,
+					"name": "AUTOMOVILES",
+					"sub": [
+						{
+							"id": 1,
+							"name": "AGYA"
+						},
+						{
+							"id": 3,
+							"name": "COROLLA"
+						},
+						{
+							"id": 2,
+							"name": "YARIS ADVANCE"
+						}
+					]
+				},
+				{
+					"id": 169,
+					"name": "HIBRIDOS",
+					"sub": [
+						{
+							"id": 1,
+							"name": "COROLLA HIBRIDO AUTORECARGABLE"
+						}
+					]
+				},
+				{
+					"id": 171,
+					"name": "PICK UPS 4X2 / 4X4",
+					"sub": [
+						{
+							"id": 1,
+							"name": "HILUX EXTRA CABINA"
+						}
+					]
+				},
+				{
+					"id": 170,
+					"name": "SUV",
+					"sub": [
+						{
+							"id": 2,
+							"name": "FORTUNER"
+						},
+						{
+							"id": 3,
+							"name": "LAND CRUISER PRADO"
+						},
+						{
+							"id": 1,
+							"name": "RAV4"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 14,
+			"name": "AUDIO Y VIDEO",
+			"sub": [
+				{
+					"id": 165,
+					"name": "ELECTRÓNICOS",
+					"sub": [
+						{
+							"id": 1,
+							"name": "CÁMARAS"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 59,
+			"name": "AUTOPARTES",
+			"sub": [
+				{
+					"id": 164,
+					"name": "AUTOPARTES",
+					"sub": [
+						{
+							"id": 2,
+							"name": "ACEITES"
+						},
+						{
+							"id": 5,
+							"name": "CASCOS"
+						},
+						{
+							"id": 3,
+							"name": "DESINFECTANTES"
+						},
+						{
+							"id": 4,
+							"name": "INFLADORES"
+						},
+						{
+							"id": 1,
+							"name": "LIMPIADORES"
+						}
+					]
+				},
+				{
+					"id": 171,
+					"name": "PICK UPS 4X2 / 4X4",
+					"sub": [
+						{
+							"id": 2,
+							"name": "TACOMA"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 57,
+			"name": "CERVEZAS, VINOS Y LICORES",
+			"sub": [
+				{
+					"id": 134,
+					"name": "ACCESORIOS",
+					"sub": [
+						{
+							"id": 1,
+							"name": "COPAS Y BOTELLAS"
+						}
+					]
+				},
+				{
+					"id": 242,
+					"name": "CERVEZAS",
+					"sub": [
+						{
+							"id": 2,
+							"name": "IMPORTADA"
+						},
+						{
+							"id": 1,
+							"name": "NACIONAL"
+						}
+					]
+				},
+				{
+					"id": 158,
+					"name": "LICORES",
+					"sub": [
+						{
+							"id": 19,
+							"name": "BRANDY"
+						},
+						{
+							"id": 20,
+							"name": "CREMA DE LICOR"
+						},
+						{
+							"id": 16,
+							"name": "VODKAS"
+						},
+						{
+							"id": 17,
+							"name": "WHISKY"
+						}
+					]
+				},
+				{
+					"id": 135,
+					"name": "VINOS",
+					"sub": [
+						{
+							"id": 2,
+							"name": "BLANCO"
+						},
+						{
+							"id": 3,
+							"name": "CHAMPAGNE"
+						},
+						{
+							"id": 5,
+							"name": "ESPUMANTE"
+						},
+						{
+							"id": 4,
+							"name": "ROSADO"
+						},
+						{
+							"id": 1,
+							"name": "TINTO"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 52,
+			"name": "ELECTRONICOS Y COMPUTACION",
+			"sub": [
+				{
+					"id": 154,
+					"name": "DRONES",
+					"sub": [
+						{
+							"id": 2,
+							"name": "MAVIC"
+						},
+						{
+							"id": 1,
+							"name": "PHANTOM"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 44,
+			"name": "FARMACIA",
+			"sub": [
+				{
+					"id": 5,
+					"name": "ANALGÉSICO"
+				},
+				{
+					"id": 1,
+					"name": "MULTIVITAMÍNICO"
+				},
+				{
+					"id": 2,
+					"name": "SALUD DE LA MUJER"
+				},
+				{
+					"id": 3,
+					"name": "SALUD DEL HOMBRE"
+				}
+			]
+		},
+		{
+			"id": 1,
+			"name": "FERRETERIA",
+			"sub": [
+				{
+					"id": 1,
+					"name": "ACABADOS",
+					"sub": [
+						{
+							"id": 5,
+							"name": "PISOS Y AZULEJOS"
+						}
+					]
+				},
+				{
+					"id": 109,
+					"name": "ELECTRODOMÉSTICO PEQUEÑO",
+					"sub": [
+						{
+							"id": 2,
+							"name": "VENTILADORES"
+						}
+					]
+				},
+				{
+					"id": 3,
+					"name": "FERRETERIAS",
+					"sub": [
+						{
+							"id": 4,
+							"name": "FIJACION"
+						},
+						{
+							"id": 6,
+							"name": "HERRAMIENTAS"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"name": "HOGAR",
+					"sub": [
+						{
+							"id": 2,
+							"name": "EXTERIORES"
+						},
+						{
+							"id": 3,
+							"name": "INTERIORES"
+						}
+					]
+				},
+				{
+					"id": 6,
+					"name": "PINTURA",
+					"sub": [
+						{
+							"id": 1,
+							"name": "ACCESORIOS PARA PINTAR"
+						},
+						{
+							"id": 3,
+							"name": "PINTURAS"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 51,
+			"name": "FRUTAS Y VEGETALES",
+			"sub": [
+				{
+					"id": 144,
+					"name": "FRUTAS IMPORTADAS",
+					"sub": [
+						{
+							"id": 1,
+							"name": "MANZANA"
+						},
+						{
+							"id": 3,
+							"name": "UVAS"
+						}
+					]
+				},
+				{
+					"id": 143,
+					"name": "FRUTAS NACIONALES",
+					"sub": [
+						{
+							"id": 1,
+							"name": "CITRICOS"
+						},
+						{
+							"id": 2,
+							"name": "EXOTICAS"
+						},
+						{
+							"id": 3,
+							"name": "TROPICALES"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 20,
+			"name": "HIGIENE Y BELLEZA",
+			"sub": [
+				{
+					"id": 103,
+					"name": "PERFUMERÍA",
+					"sub": [
+						{
+							"id": 3,
+							"name": "COLOR"
+						},
+						{
+							"id": 1,
+							"name": "PERFUMES"
+						},
+						{
+							"id": 6,
+							"name": "TRATAMIENTOS"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 50,
+			"name": "HOGAR",
+			"sub": [
+				{
+					"id": 142,
+					"name": "COLCHONES",
+					"sub": [
+						{
+							"id": 1,
+							"name": "CLASICO"
+						},
+						{
+							"id": 2,
+							"name": "ORTOPEDICOS"
+						},
+						{
+							"id": 3,
+							"name": "TOP"
+						}
+					]
+				},
+				{
+					"id": 109,
+					"name": "ELECTRODOMÉSTICO PEQUEÑO",
+					"sub": [
+						{
+							"id": 2,
+							"name": "VENTILADORES"
+						}
+					]
+				},
+				{
+					"id": 4,
+					"name": "HOGAR",
+					"sub": [
+						{
+							"id": 1,
+							"name": "ESTACIONAL"
+						}
+					]
+				},
+				{
+					"id": 161,
+					"name": "JARRONES",
+					"sub": [
+						{
+							"id": 2,
+							"name": "CERÁMICA"
+						},
+						{
+							"id": 5,
+							"name": "POLÍMERO"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 11,
+			"name": "JUGOS Y BEBIDAS",
+			"sub": [
+				{
+					"id": 244,
+					"name": "CAFE Y TE PREPARADO",
+					"sub": [
+						{
+							"id": 3,
+							"name": "CAFÉ"
+						},
+						{
+							"id": 2,
+							"name": "TE"
+						}
+					]
+				},
+				{
+					"id": 243,
+					"name": "ENERGIZANTES E HIDRATANTES",
+					"sub": [
+						{
+							"id": 1,
+							"name": "ENERGIZANTES"
+						},
+						{
+							"id": 2,
+							"name": "HIDRATANTES"
+						}
+					]
+				},
+				{
+					"id": 247,
+					"name": "JUGOS Y NECTARES",
+					"sub": [
+						{
+							"id": 1,
+							"name": "JUGOS"
+						},
+						{
+							"id": 2,
+							"name": "NECTARES"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 39,
+			"name": "JUGUETES Y JUEGOS",
+			"sub": [
+				{
+					"id": 1,
+					"name": "JUGUETES",
+					"sub": [
+						{
+							"id": 1,
+							"name": "ROBOTS / ARMAR"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 13,
+			"name": "LINEA BLANCA",
+			"sub": [
+				{
+					"id": 109,
+					"name": "ELECTRODOMÉSTICO PEQUEÑO",
+					"sub": [
+						{
+							"id": 1,
+							"name": "PLANCHAS VAPOR"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 78,
+			"name": "LITERATURA",
+			"sub": [
+				{
+					"id": 212,
+					"name": "LIBROS",
+					"sub": [
+						{
+							"id": 6,
+							"name": "BIOTECNOLOGÍA"
+						},
+						{
+							"id": 5,
+							"name": "FILOSOFÍA"
+						},
+						{
+							"id": 7,
+							"name": "HISTORIA"
+						},
+						{
+							"id": 4,
+							"name": "NOVELA"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 4,
+			"name": "MISCELANEOS",
+			"sub": [
+				{
+					"id": 4,
+					"name": "HOGAR",
+					"sub": [
+						{
+							"id": 3,
+							"name": "INTERIORES"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 46,
+			"name": "MUJERES",
+			"sub": [
+				{
+					"id": 241,
+					"name": "ATLETISMO",
+					"sub": [
+						{
+							"id": 1,
+							"name": "RUNNING"
+						}
+					]
+				},
+				{
+					"id": 145,
+					"name": "ROPA MUJER",
+					"sub": [
+						{
+							"id": 1,
+							"name": "ENAGUAS"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 55,
+			"name": "NIÑAS",
+			"sub": [
+				{
+					"id": 160,
+					"name": "ROPA PARA NIÑOS",
+					"sub": [
+						{
+							"id": 1,
+							"name": "ENAGUAS"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 67,
+			"name": "NIÑAS Y NIÑOS",
+			"sub": [
+				{
+					"id": 175,
+					"name": "ARTE Y CREATIVIDAD",
+					"sub": [
+						{
+							"id": 1,
+							"name": "ARTÍCULOS DE ARTE"
+						},
+						{
+							"id": 2,
+							"name": "MANUALIDADES"
+						}
+					]
+				},
+				{
+					"id": 174,
+					"name": "JUEGOS Y ROMPECABEZAS",
+					"sub": [
+						{
+							"id": 2,
+							"name": "JUEGOS DE MESA"
+						},
+						{
+							"id": 3,
+							"name": "ROMPECABEZAS"
+						}
+					]
+				},
+				{
+					"id": 176,
+					"name": "JUGUETES EDUCATIVOS",
+					"sub": [
+						{
+							"id": 3,
+							"name": "APRENDIZAJE Y DESTREZA"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 80,
+			"name": "PANADERIA",
+			"sub": [
+				{
+					"id": 245,
+					"name": "PANADERIA Y REPOSTERIA",
+					"sub": [
+						{
+							"id": 2,
+							"name": "PAN DULCE"
+						},
+						{
+							"id": 1,
+							"name": "PAN SALADO"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 2,
+			"name": "PATIO",
+			"sub": [
+				{
+					"id": 149,
+					"name": "CEMENTO CONSTRUCCION",
+					"sub": [
+						{
+							"id": 1,
+							"name": "CEMENTO POLVO"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 43,
+			"name": "PINTURAS",
+			"sub": [
+				{
+					"id": 132,
+					"name": "PINTURAS",
+					"sub": [
+						{
+							"id": 1,
+							"name": "ACCESORIOS PARA PINTAR"
+						},
+						{
+							"id": 2,
+							"name": "ESMALTE"
+						},
+						{
+							"id": 3,
+							"name": "GOLTEX"
+						},
+						{
+							"id": 4,
+							"name": "LATEX"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 38,
+			"name": "REPUESTOS",
+			"sub": [
+				{
+					"id": 167,
+					"name": "REPUESTOS HINO",
+					"sub": [
+						{
+							"id": 2,
+							"name": "HINO - CONJUNTO DE EMBRAGUE"
+						},
+						{
+							"id": 1,
+							"name": "HINO - FILTROS DE AIRE"
+						}
+					]
+				},
+				{
+					"id": 167,
+					"name": "REPUESTOS TOYOTA",
+					"sub": [
+						{
+							"id": 1,
+							"name": "TOYOTA - CONJUNTO DE EMBRAGUE"
+						},
+						{
+							"id": 2,
+							"name": "TOYOTA - FILTROS DE COMBUSTIBLE"
+						},
+						{
+							"id": 4,
+							"name": "TOYOTA - CONJUNTO DE ACEITE"
+						},
+						{
+							"id": 3,
+							"name": "TOYOTA - FILTROS DE AIRE"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 53,
+			"name": "TELEFONOS Y TABLETS",
+			"sub": [
+				{
+					"id": 152,
+					"name": "IPAD",
+					"sub": [
+						{
+							"id": 1,
+							"name": "IPAD"
+						}
+					]
+				},
+				{
+					"id": 153,
+					"name": "IPHONE",
+					"sub": [
+						{
+							"id": 1,
+							"name": "IPHONE 6"
+						},
+						{
+							"id": 4,
+							"name": "IPHONE X"
+						}
+					]
+				}
+			]
+		},
+		{
+			"id": 1024,
+			"name": "Z-INDEX"
+		}
+	]
+}
