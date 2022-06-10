@@ -56,8 +56,14 @@
 
 			& .big-menu-scroller {
 				overflow-y: auto;
+				overflow-x: hidden;
 				height: calc(100vh - 70px);
-				min-width: 320px;
+				width: 320px;
+
+				&.big-menu-sublevel {
+					width: 0;
+					animation: widthGrowing .25s ease-in-out 0s 1 normal forwards;
+				}
 			}
 
 			& ul {
@@ -84,6 +90,14 @@
 				}
 			}
 		}
+	}
+}
+@keyframes widthGrowing {
+	from {
+		width: 0px !important;
+	}
+	to {
+		width: 320px;
 	}
 }
 @keyframes slideIn {

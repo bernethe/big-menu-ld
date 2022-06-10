@@ -72,7 +72,7 @@ const BigMenu = ({ dataProvider, isOpen, setIsOpen }) => {
 					</ul>
 				</div>
 				{
-					secondLevel.length > 0 && <div className='big-menu-scroller'>
+					secondLevel.length > 0 && <div className='big-menu-scroller big-menu-sublevel'>
 						<ul>
 							{
 								secondLevel.map(item => <li
@@ -86,7 +86,7 @@ const BigMenu = ({ dataProvider, isOpen, setIsOpen }) => {
 					</div>
 				}
 				{
-					thirdLevel.length > 0 && <div className='big-menu-scroller' onMouseLeave={ outThirdLevel }>
+					thirdLevel.length > 0 && <div className='big-menu-scroller big-menu-sublevel' onMouseLeave={ outThirdLevel }>
 						<ul>
 							{
 								thirdLevel.map(item => <li
