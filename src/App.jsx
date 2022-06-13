@@ -17,8 +17,8 @@ const App = () => {
                 >
                     <HiMenu style={ { fontSize: '2em' } } />
                 </button>
-                <span style={ { fontSize: '1.5em', fontWeight: 'bold' } }>
-                    <FaReact style={ { fontSize: '1.5em' } } /> BigMenu
+                <span style={ { fontSize: '1.5rem', fontWeight: 'bold' } }>
+                    <FaReact style={ { fontSize: '1.5rem' } } /> BigMenu <span style={ { fontWeight: 'normal', fontSize: '1rem' } }>by LogicalData</span>
                 </span>
             </div>
         </header>
