@@ -72,6 +72,7 @@ const BigMenu = ({ dataProvider, isOpen, setIsOpen }) => {
 		setThirdLevel(item.sub ? item.sub : []);
 	}
 	const outThirdLevel = () => {
+		document.querySelectorAll('.big-menu-sublevel li a').forEach(el => el.classList.remove('active-sub'));
 		secondLevelRef.current.classList.remove('big-menu-hide');
 		setThirdLevel([]);
 	}
