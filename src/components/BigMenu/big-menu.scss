@@ -117,9 +117,17 @@
 							text-decoration: none;
 							padding: .5rem 1rem;
 						}
-						&:hover {
+						&:hover, &.active {
 							background-color: var(--bs-primary);
 							color: #fff;
+						}
+						&.active-sub {
+							background-color: var(--bs-gray-300);
+							
+							&:hover {
+								background-color: var(--bs-primary);
+								color: #fff;
+							}
 						}
 					}
 				}

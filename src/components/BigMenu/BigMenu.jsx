@@ -53,9 +53,12 @@ const BigMenu = ({ dataProvider, isOpen, setIsOpen }) => {
 		}
 	}
 
-	const hoverSecondLevel = (item) => {
+	const hoverSecondLevel = (e,item) => {
+		document.querySelectorAll('.big-menu-firstlevel li a').forEach(el => el.classList.remove('active'));
+		e.target.classList.add('active');
 		setFirstLevelVal(item.sub ? item.id : 0);
 		setSecondLevel(item.sub ? item.sub : []);
+		setThirdLevel([]);
 	}
 	const outSecondLevel = () => {
 		firstLevelRef.current.classList.remove('big-menu-hide');
@@ -63,7 +66,9 @@ const BigMenu = ({ dataProvider, isOpen, setIsOpen }) => {
 		setSecondLevel([]);
 	}
 
-	const hoverThirdLevel = (item) => {
+	const hoverThirdLevel = (e,item) => {
+		document.querySelectorAll('.big-menu-sublevel li a').forEach(el => el.classList.remove('active-sub'));
+		e.target.classList.add('active-sub');
 		setThirdLevel(item.sub ? item.sub : []);
 	}
 	const outThirdLevel = () => {
@@ -83,11 +88,11 @@ const BigMenu = ({ dataProvider, isOpen, setIsOpen }) => {
 				</button>
 			</header>
 			<div className='big-menu-body'>
-				<div className='big-menu-scroller' ref={firstLevelRef}>
+				<div className='big-menu-scroller big-menu-firstlevel' ref={firstLevelRef}>
 					<ul style={ { height: `${40*dataProvider.length}px` } }>
 						{dataProvider.map(item => <li
 							key={'1_'+item.id}
-							onMouseEnter={() => hoverSecondLevel(item)}
+							onMouseEnter={(e) => hoverSecondLevel(e,item)}
 							onClick={(e) => handleClickFirstLevel(e, item)}
 						>
 							<a href={ `/ECOMMERCE/ItemCategory?id=${item.id}&subcategory=0` }>{item.name}</a>
@@ -103,7 +108,7 @@ const BigMenu = ({ dataProvider, isOpen, setIsOpen }) => {
 							{
 								secondLevel.map(item => <li
 									key={'2_'+item.id}
-									onMouseEnter={() => hoverThirdLevel(item)}
+									onMouseEnter={(e) => hoverThirdLevel(e,item)}
 									onClick={(e) => handleClickSecondLevel(e, item)}
 								>
 									<a href={ `/ECOMMERCE/ItemCategory?id=${firstLevelVal}&subcategory=${item.id}` }>{item.name}</a>
