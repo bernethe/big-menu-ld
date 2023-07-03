@@ -10,8 +10,5 @@ export default defineConfig({
       '@': '/src/',
     },
   },
-  root: './',
-  build: {
-    outDir: './build'
-  }
+  root: './'
 })
