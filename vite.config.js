@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/big-menu-ld/',
+  base: '/',
   plugins: [react()],
   resolve: {
     alias: {
